@@ -38,14 +38,15 @@ export default {
   data() {
     return {
       exercises: [
-        { id: 'curl', name: '弯曲检测' },
+        { id: 'curl', name: '弯举检测' },
         { id: 'high-knee', name: '高抬腿检测' },
         { id: 'jump', name: '跳跃检测' },
         { id: 'jumping-jack', name: '开合跳检测' },
         { id: 'lunge', name: '弓步检测' },
         { id: 'plank', name: '平板支撑检测' },
         { id: 'push-up', name: '俯卧撑检测' },
-        { id: 'sit-up', name: '仰卧起坐检测' }
+        { id: 'sit-up', name: '仰卧起坐检测' },
+		{ id: 'squat', name:'深蹲检测'},
       ],
       selectedExercise: null,
       exerciseFeedback: null,
